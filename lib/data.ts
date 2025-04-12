@@ -49,7 +49,7 @@ export const experiencesData = [
       "At Isuremedia, I worked as a full-stack developer where I built a variety of web designs, landing pages, and CRM systems. I also took on manual testing responsibilities to ensure everything ran smoothly before deployment. It was a great hands-on experience that helped me sharpen both my frontend and backend skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - 2025",
-  }
+  },
   
   {
     title: "Senior Software Developer",
