@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import amazonImg from "@/public/Amazon.png";
-import weatherImg from "@/public/weather.png";
-import ecommerceImg from "@/public/ecommerce.png";
+import Isuremedia from "@/public/Isuremedia.png";
+import taskflowImg from "@/public/taskflowImg.png";
+import devconnectImg from "@/public/devconnectImg.png";
 
 export const links = [
   {
@@ -36,66 +36,89 @@ export const links = [
 export const experiencesData = [
   {
     title: "Coding bootcamp",
-    location: "Online",
+    location: "Brillaint",
     description:
       "Learn Different skills...",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Anywhere",
+    title: "Full Stack Developer",
+    location: "Isuremedia",
     description:
-      "I worked as a front-end developer . I also upskilled to the full stack.",
+      "I worked as a full-stack developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
+    date: "2024 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Home",
+    title: "Senior Software Developer",
+    location: "Codesource",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Head of the Software Development department, leading projects across web development, Android and iOS app development. Experienced in building intelligent chatbots and working with both Python and Java. Oversee and contribute to various projects while ensuring code quality and performance.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2025 - Present",
+    
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Amazon",
-    description:
-      "I worked as a full-stack developer on this project. Users can give public feedback to companies.",
-    tags: ["React","Javascript", "Firebase" ],
-    imageUrl: amazonImg,
-  },
+    title: "Isuremedia",
+    description: `
+    - Business agency website  
+    - WordPress + Elementor  
+    - Clean and responsive design  
+    - Service and project showcase  
+    - GoHighLevel integration  
+    - Client success highlights  
+    - Focused on digital growth  
+    `,
+    tags: ["Wordpress", "Elementor"],
+    imageUrl: Isuremedia,
+  },  
   {
-    title: "Weather",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: [ "Javascript", "Next.js", "Tailwind"],
-    imageUrl: weatherImg,
-  },
+    title: "TaskFlow API",
+    description: `
+    - Backend task management API  
+    - Built with FastAPI (Python)  
+    - JWT-based auth system  
+    - User registration & login  
+    - Full CRUD on tasks  
+    - PostgreSQL integration  
+    - Input validation + Swagger docs  
+    `,
+    tags: ["Python", "FastAPI", "PostgreSQL"],
+    imageUrl: taskflowImg,
+  },  
   {
-    title: "E-commerce",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Javascript",  "Tailwind","React"],
-    imageUrl: ecommerceImg,
-  },
+    title: "DevConnect",
+    description: `
+    - Full-stack social platform  
+    - For devs to share projects & blogs  
+    - Built with MERN stack  
+    - Auth + profile management  
+    - Post creation & commenting  
+    - Responsive, modern UI  
+    `,
+    tags: ["Node.js", "Express", "React", "MongoDB"],
+    imageUrl: devconnectImg,
+  }
+  ,
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
   "MongoDB",
   "Express",
   "Python",
-  "Framer Motion",
+  "Java",
+  "MySQL",
+  "PostgreSQL",
+  "C++"
 ] as const;

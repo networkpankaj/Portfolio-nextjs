@@ -17,32 +17,23 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
+
+      
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I <span className="font-medium"></span>decided to pursue my passion for
-        programming. I learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript, JavaScript and Python. I am always
-        looking to learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+  I decided to follow my passion for programming and dove deep into the world of web development. Along the way, I discovered that what excites me most is <span className="italic">solving complex problems</span>. There's nothing quite like the satisfaction of cracking a tough challenge. Over time, I’ve built a solid foundation in{" "}
+  <span className="font-medium">
+    React, Python, Java, C++, Node.js, PostgreSQL, and MongoDB
+  </span>
+  , and I’ve also worked with TypeScript, JavaScript, and Go. I'm always exploring new technologies and sharpening my skills.
+</p>
 
-      <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy running,
-        watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and Android Development</span>.
-        I&apos;m also Teaching coding.
-      </p>
+<p>
+  <span className="italic">Outside of code</span>, I love running, watching anime, and spending time with my dog. I’m currently diving into{" "}
+  <span className="font-medium">Cybersecurity and Android Development</span>, and I also enjoy{" "}
+  <span className="font-medium">teaching coding</span> and helping others on their learning journeys.
+</p>
+
     </motion.section>
   );
 }
