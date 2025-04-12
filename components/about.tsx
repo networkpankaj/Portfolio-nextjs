@@ -21,18 +21,23 @@ export default function About() {
       
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-  I decided to follow my passion for programming and dove deep into the world of web development. Along the way, I discovered that what excites me most is <span className="italic">solving complex problems</span>. There's nothing quite like the satisfaction of cracking a tough challenge. Over time, I’ve built a solid foundation in{" "}
-  <span className="font-medium">
-    React, Python, Java, C++, Node.js, PostgreSQL, and MongoDB
-  </span>
-  , and I’ve also worked with TypeScript, JavaScript, and Go. I'm always exploring new technologies and sharpening my skills.
+  I’m a passionate full-stack developer with strong skills in{" "}
+  <span className="font-medium">React</span> and{" "}
+  <span className="font-medium">Python</span>, and experience working with{" "}
+  <span className="font-medium">Java, C++, Node.js, PostgreSQL, and MongoDB</span>. I’m also familiar with{" "}
+  <span className="font-medium">TypeScript, JavaScript, and Go</span>.
+</p>
+
+<p className="mb-3">
+  I enjoy solving problems by breaking them down and finding simple, effective solutions that work well. I’m currently looking for a full-time software developer role where I can work on meaningful projects and keep learning and growing.
 </p>
 
 <p>
-  <span className="italic">Outside of code</span>, I love running, watching anime, and spending time with my dog. I’m currently diving into{" "}
-  <span className="font-medium">Cybersecurity and Android Development</span>, and I also enjoy{" "}
-  <span className="font-medium">teaching coding</span> and helping others on their learning journeys.
+  Outside of coding, I like running, watching anime, and spending time with time. I’m also learning{" "}
+  <span className="font-medium">Cyber Security</span> and{" "}
+  <span className="font-medium">Android Development</span>, and I love helping others learn to code too.
 </p>
+
 
     </motion.section>
   );
